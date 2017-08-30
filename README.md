@@ -16,3 +16,6 @@ All other classes should be created here. `App` has been seperated out for testa
 
 ## Tests/AppTests
 Testing module to create tests to be run. The sample already imports the `App` module.
+
+## Testing
+If you wish to run tests whenever one of your `Source/App` or `Tests/AppTests` files are modified run `bundle exec guard` from the terminal in the `root` directory of the project. You may edit the `Guardfile` to add additional directories. 
